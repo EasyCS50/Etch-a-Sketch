@@ -8,14 +8,26 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="slider-text"></div>
+    <h1 class="title">
+        Etch-a-Sketch
+    </h1>
     <div class="slidecontainer">
+        <div id="slider-text"></div>
         <input id="slider" class="slider" type="range" min="1" max="100" value="16">
     </div>
-    <button id="change">Change!</button>
-    <button id="clear">Clear</button>
-    <button id="black">Black</button>
-    <button id="random">Random Colors</button>
-    <div id="grid"></div>
+    <div class="buttons">
+        <button id="change">Change!</button>
+        <button id="clear">Clear</button>
+        <button id="black">Black</button>
+        <button id="random">Random Colors</button>
+    </div>
+    <div class="gridcontainer">
+        <div id="grid"></div>
+    </div>
+    <div class="footer">
+        <p>
+            EasyCS50
+        </p>
+    </div>
 </body>
 </html>

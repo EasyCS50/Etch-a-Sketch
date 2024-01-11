@@ -47,8 +47,10 @@ function createGrid(squares, divSize) {
       if (randomClicked === true) {
         string = '#' + Math.floor(Math.random()*16777215).toString(16);
         div.style.backgroundColor = string;
+      } else {
+        div.style.backgroundColor = `#3f3f3f`;
       }
-      div.classList.add("color");
+      div.classList.add("square");
     });
   }
 }
